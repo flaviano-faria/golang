@@ -15,6 +15,7 @@ func main() {
 	numberOfBytes, errors := fmt.Printf("x: %v, %T\n", x, x)
 	fmt.Println(numberOfBytes, errors)
 
+	// _ demonstrates a unused variable
 	byteNumber, _ := fmt.Println("teste")
 	fmt.Println(byteNumber)
 }
