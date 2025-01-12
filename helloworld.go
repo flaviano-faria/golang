@@ -6,4 +6,5 @@ import (
 
 func main() {
 	fmt.Println("Hello, World!")
+	fmt.Println("1+1=",1+1)
 }
